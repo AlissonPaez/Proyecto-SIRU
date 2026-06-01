@@ -12,7 +12,7 @@ public class GestorAutenticacion {
 
     // Verifica las credenciales del usuario y retorna un token de sesión junto con su rol.
     // Retorna error si el usuario no existe o la contraseña es incorrecta.
-    public String iniciarSesion(String email, String contrasena) {
+    public String iniciarSesion(String email, String contraseña) {
         throw new UnsupportedOperationException("Por implementar");
     }
 
