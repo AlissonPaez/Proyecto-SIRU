@@ -24,7 +24,7 @@ public class GestorAutenticacion {
 
     // Envía un correo al email registrado con instrucciones para recuperar la contraseña.
     // Retorna error si el email no corresponde a ningún usuario del sistema.
-    public String recuperarContrasena(String email) {
+    public String recuperarContraseña(String email) {
         throw new UnsupportedOperationException("Por implementar");
     }
 
