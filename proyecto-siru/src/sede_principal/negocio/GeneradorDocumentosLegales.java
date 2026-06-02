@@ -21,7 +21,7 @@ public class GeneradorDocumentosLegales {
     // Genera el acta de notas del grupo indicado con la firma digital de la persona encargada.
     // Valida que todas las calificaciones estén registradas antes de generar el acta.
     // Retorna error si hay calificaciones pendientes o quien firma no tiene autorización.
-    public String generarActaNotas(String idDocente, String idGrupo, String idFirmante) {
+    public String generarActaNotas(String idDocente, String idGrupo) {
         throw new UnsupportedOperationException("Por implementar");
     }
 
@@ -29,7 +29,7 @@ public class GeneradorDocumentosLegales {
     // Valida que el nombre, programa y fecha sean correctos antes de emitirlo
     // Retorna error si hay inconsistencias en los datos del graduando.
     public String generarDiploma(String idEstudiante, String idPrograma,
-                                 String fechaGrado, String idFirmante) {
+                                 String fechaGrado) {
         throw new UnsupportedOperationException("Por implementar");
     }
 
